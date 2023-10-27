@@ -5,49 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./main.css">
     <title>Form about ChatGPT</title>
+    <style>
+        h1, h3, p {
+          margin-top: 5px;
+          margin-bottom: 5px;
+        }
+      </style>
 </head>
 <body>
     <div class="container">
         <div class="heading">
-        <h1>Форма опроса</h1>
-        <h3>Благодарим вас за то, что нашли время <br/>помочь нам улучшить платформу</h3>
-        <p><b>Данный опрос создан для того чтобы узнать  <br/> насколько хорошо работает помощник ChatGPT, <br/> пройдя данный опросник вы очень поможете нам  <br/> исправлять наши ошибки и развиваться нам дальше!</b></p>
-        <a href="https://chat.openai.com/c/a9ce105d-368a-4858-b469-7010a3abba0e"><img src="./images/gpt.png"></a>
-    </div>
+            <h1>Форма опроса</h1>
+            <h3>Благодарим вас за то, что нашли время </h3>
+            <h3>помочь нам улучшить платформу.</h3>
+            <p><b>Данный опрос создан для того чтобы узнать </b></p>
+            <p><b>насколько хорошо работает помощник ChatGPT, </b></p>
+            <p><b>пройдя данный опросник вы очень поможете нам </b></p>
+            <p><b>исправлять наши ошибки и развиваться нам</b></p>
+            <p><b>дальше!</b></p>
+            <a href="https://chat.openai.com/c/a9ce105d-368a-4858-b469-7010a3abba0e"><img src="./images/gpt.png"></a>
+        </div>
         <form action="#" class="contentBody">
-        <div class="userSelect">
-            <label for="name" class="moveLeftLabel">Имя:</label>
-            <input type="text" class="input" name="UserName" value=""  placeholder="Введите ваше имя:"/>
-        </div>
-        <div class="userSelect">
-            <label for="e-mail" class="moveLeftLabel">EMAIL:</label>
-            <input type="text" class="input" name="e-mail" value=""  placeholder="Введите вашу почту:"/>
-        </div>
-        <div class="userSelect">
-            <label for="age" class="moveLeftLabel">Возраст:</label>
-            <input type="text" class="input" name="age" value=""  placeholder="Введите ваш возраст:"/>
-        </div>
-        <div class="userSelect">
-            <p>Как часто вы используете ChatGPT:</p>
-            <select name="busy" class="formControl" id="userSelect">
-                <option value="learn">Всегда</option>
-                <option value="work">Иногда, когда уже гугл не помощник</option>
-                <option value="learn">Очень редко</option>
-                <option value="learn">Впервые слышу</option>
-            </select>
-        </div>
-        <div class="userSelect">
-            <p>Какого вида ошибок вы частво встречали? <br/> Выберите один из вариантов: </p>
-            <label><input type="checkbox" class="checkbox">Зависает и не отвечает</label>
-            <label><input type="checkbox" class="checkbox">Не отвечает полноценно и до конца</label>
-            <label><input type="checkbox" class="checkbox">Сервер просто перестает работать</label>
-            <label><input type="checkbox" class="checkbox">ChatGPT игнорирует</label>
-            <label><input type="checkbox" class="checkbox">Ответы которые совсем не касаются вопросов</label>
-        </div>
-        <div class="button">
-            <button type="submit">Отправить</button>
-        </div>
-    </form>
+            <div class="userSelect">
+                <label for="name" class="moveLeftLabel">Имя:</label>
+                <input type="text" class="input" name="UserName" value="" placeholder="Введите ваше имя:" />
+            </div>
+            <div class="userSelect">
+                <label for="email" class="moveLeftLabel">EMAIL:</label>
+                <input type="text" class="input" name="email" value="" placeholder="Введите вашу почту:" />
+            </div>
+            <div class="userSelect">
+                <label for="age" class="moveLeftLabel">Возраст:</label>
+                <input type="text" class="input" name="age" value="" placeholder="Введите ваш возраст:" />
+            </div>
+            <div class="userSelect">
+                <p>Как часто вы используете ChatGPT:</p>
+                <select name="busy" class="formControl" id="userSelect">
+                    <option value="always">Всегда</option>
+                    <option value="sometime">Иногда, когда уже гугл не помощник</option>
+                    <option value="hardly ever">Очень редко</option>
+                    <option value="never">Впервые слышу</option>
+                </select>
+            </div>
+            <div class="userSelect">
+                <p>Какого вида ошибок вы частво встречали? </p>
+                <p>Выберите один из вариантов: </p>
+                <label><input type="checkbox" class="checkbox">Зависает и не отвечает</label>
+                <label><input type="checkbox" class="checkbox">Не отвечает полноценно и до конца</label>
+                <label><input type="checkbox" class="checkbox">Сервер просто перестает работать</label>
+                <label><input type="checkbox" class="checkbox">ChatGPT игнорирует</label>
+                <label><input type="checkbox" class="checkbox">Ответы которые совсем не касаются вопросов</label>
+            </div>
+            <div class="button">
+                <button type="submit">Отправить</button>
+            </div>
+        </form>
     </div>
 </body>
 </html>
