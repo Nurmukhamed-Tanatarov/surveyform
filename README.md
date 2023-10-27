@@ -5,12 +5,12 @@
 <h2>Table of Contents</h2>
 
 <ul>
-<li><a href="introduction.html">Introduction</a></li>
-<li><a href="features.html">Features</a></li>
-<li><a href="gettingstarted.html">Getting Started</a></li>
-<li><a href="usage.html">Usage</a></li>
-<li><a href="contributing.html">Contributing</a></li>
-<li><a href="license.html">License</a></li>
+<li><a href="introduction">Introduction</a></li>
+<li><a href="features">Features</a></li>
+<li><a href="gettingstarted">Getting Started</a></li>
+<li><a href="usage">Usage</a></li>
+<li><a href="contributing">Contributing</a></li>
+<li><a href="license">License</a></li>
 </ul>
 
 <h2 id="introduction">Introduction</h2>
