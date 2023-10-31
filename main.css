@@ -10,7 +10,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100%;
+    width: 100%;
 }
 
 img{
@@ -26,7 +27,7 @@ img{
     width: 700px;
     height: 800px;
     margin-left: 100px;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 20px;
 }
 
@@ -54,7 +55,7 @@ img{
 }
 
 .heading{
-    margin-top: 100px;
+    margin-top: 50px;
     text-align: left;
     margin-right: 100px;
     color: var(--fontColor);
@@ -117,7 +118,7 @@ button:hover{
         width: 400px;
         height: 800px;
         margin-right: 100px;
-        margin-top: 200px;
+        margin-top: 80px;
         margin-bottom: 20px;
     }
 
@@ -159,7 +160,7 @@ button:hover{
     }
 
     .heading{
-        margin-top: 200px;
+        margin-top: 80px;
         text-align: left;
         margin-right: 100px;
         margin-left: 80px;
@@ -184,7 +185,7 @@ button:hover{
         width: 400px;
         height: 800px;
         margin-right: 100px;
-        margin-top: 400px;
+        margin-top: 80px;
         margin-bottom: 20px;
     }
 
@@ -235,80 +236,40 @@ button:hover{
     }
 
     .heading{
-        margin-top: 400px;
+        margin-top: 80px;
         display: block;
         text-align: left;
-        margin-left: 590px;
+        margin-left: 290px;
         color: var(--fontColor);
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
 }
 
-@media screen and (max-width: 524px) {
+@media screen and (max-width:774px){
+    body{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .heading{
+        margin-top: 80px;
+        /* display: block; */
+        text-align: left;
+        margin-left: 100px;
+        color: var(--fontColor);
+        height: 50%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
     .contentBody{
         background-color: rgba(38, 48, 56, 0.8);
         border-radius: 10px;
-        width: 400px;
-        height: 800px;
-        margin-left: 400px;
-        margin-right: 100px;
-        margin-top: 1000px;
-        margin-bottom: 20px;
-        
-    }
-
-    label{
-        margin-bottom: 10px;
-        display: block;
-    }
-
-    .userSelect{
-        display: flex;
-        flex-direction: column;
-        color: white;
-        font-family: Arial, Helvetica, sans-serif;
-        width: 300px;
-        margin-left: 50px;
-        margin-top: 20px;
-    }
-
-    .formControl{
-        width: 250px;
-        height: 30px;
-        border-radius: 5px;
-        display: flex;
-    }
-
-    .input{
-        width: 250px;
-        height: 30px;
-        border-radius: 5px; 
-    }
-
-    .moveLeftLabel{
-        margin-top: 20px;
-        text-align: left;
-        margin-right: 1000px;
-    }
-
-    button{
         width: 50%;
-        height: 40px;
-        margin-top: 30px;
-        margin-left: 100px;
-        border-radius: 10px;
+        height: 50%;
+        margin-left: 20px;
+        /* margin-right: 100px; */
+        transform: translateY(750px);
+        margin-bottom: 20px;
     }
-    button:hover{
-        background-color: rgb(76, 201, 215);
-        color: white;
-    }
-
-    .heading{
-        margin-top: 1100px;
-        display: block;
-        text-align: left;
-        margin-left: 1190px;
-        color: var(--fontColor);
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    }
+    
 }
